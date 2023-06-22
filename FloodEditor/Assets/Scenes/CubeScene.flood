@@ -1,0 +1,53 @@
+Scene: Name
+Entities:
+  - Entity: 1234567890123456
+    TagComponent:
+      Tag: Right
+    TransformComponent:
+      Translation: [0, 0, 0.5]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    SpriteRendererComponent:
+      Color: [0.311936319, 0.349548876, 0.598455608, 1]
+      TexturePath: ""
+      TilingFactor: 1
+  - Entity: 1234567890123456
+    TagComponent:
+      Tag: Top
+    TransformComponent:
+      Translation: [0, 0.5, 0]
+      Rotation: [-1.57079637, 0, 0]
+      Scale: [1, 1, 1]
+    SpriteRendererComponent:
+      Color: [0.424251467, 0.420432031, 0.915057898, 1]
+      TexturePath: ""
+      TilingFactor: 1
+  - Entity: 1234567890123456
+    TagComponent:
+      Tag: Front
+    TransformComponent:
+      Translation: [0.5, 0, 2.95439122e-08]
+      Rotation: [0, 1.57079637, 0]
+      Scale: [0.999840736, 1, 0.999840736]
+    SpriteRendererComponent:
+      Color: [0.16990073, 0.167737514, 0.447876453, 1]
+      TexturePath: ""
+      TilingFactor: 1
+  - Entity: 1234567890123456
+    TagComponent:
+      Tag: Camera
+    TransformComponent:
+      Translation: [1.48073411, 1.19799995, 1.15587842]
+      Rotation: [-0.55501467, 0.759218216, 0]
+      Scale: [0.999999881, 1, 1]
+    CameraComponent:
+      Camera:
+        ProjectionType: 1
+        PerspectiveFOV: 0.785398185
+        PerspectiveNear: 0.00999999978
+        PerspectiveFar: 1000
+        OrthographicSize: 5
+        OrthographicNear: 0.00999999978
+        OrthographicFar: 10
+      Primary: true
+      FixedAspectRatio: false

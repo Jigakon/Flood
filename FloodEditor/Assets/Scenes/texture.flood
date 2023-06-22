@@ -1,0 +1,53 @@
+Scene: Name
+Entities:
+  - Entity: 1234567890123456
+    TagComponent:
+      Tag: Lamboubou
+    TransformComponent:
+      Translation: [0, 0, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    SpriteRendererComponent:
+      Color: [1, 1, 1, 1]
+      TexturePath: assets\Textures\lamboubou.png
+      TilingFactor: 1
+  - Entity: 1234567890123456
+    TagComponent:
+      Tag: WhiteQuad
+    TransformComponent:
+      Translation: [-1.5, 0, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    SpriteRendererComponent:
+      Color: [1, 1, 1, 1]
+      TexturePath: assets\Textures\peter.png
+      TilingFactor: 1
+  - Entity: 1234567890123456
+    TagComponent:
+      Tag: RedQuad
+    TransformComponent:
+      Translation: [1.79999995, 0, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    SpriteRendererComponent:
+      Color: [0.567567587, 0.155588046, 0.155588046, 1]
+      TexturePath: ""
+      TilingFactor: 1
+  - Entity: 1234567890123456
+    TagComponent:
+      Tag: Camera
+    TransformComponent:
+      Translation: [-0.44418335, -0.454006195, 0.5]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    CameraComponent:
+      Camera:
+        ProjectionType: 1
+        PerspectiveFOV: 0.785398185
+        PerspectiveNear: 0.00999999978
+        PerspectiveFar: 1000
+        OrthographicSize: 10
+        OrthographicNear: 0.00999999978
+        OrthographicFar: 17
+      Primary: true
+      FixedAspectRatio: false
